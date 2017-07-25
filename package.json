@@ -1,0 +1,31 @@
+{
+	"name": "vuets-quasar",
+	"description": "A Vue.ts project",
+	"version": "1.0.0",
+	"author": "Johannes Drechsler <JohannesDrechslerUS@gmail.com>",
+	"private": true,
+	"scripts": {
+		"dev": "webpack-dev-server --hot",
+		"build": "webpack --progress --hide-modules"
+	},
+	"dependencies": {
+		"fastclick": "^1.0.6",
+		"material-design-icons": "^3.0.1",
+		"moment": "^2.15.0",
+		"quasar-framework": "^0.13.4",
+		"roboto-fontface": "^0.7.0",
+		"vue": "https://github.com/DanielRosenwasser/vue#540a38fb21adb7a7bc394c65e23e6cffb36cd867",
+		"vue-router": "https://github.com/DanielRosenwasser/vue-router#01b8593cf69c2a5077df45e37e2b24d95bf35ce3"
+	},
+	"devDependencies": {
+		"css-loader": "^0.25.0",
+		"file-loader": "^0.9.0",
+		"style-loader": "0.18.2",
+		"ts-loader": "^2.3.1",
+		"typescript": "^2.4.2",
+		"vue-loader": "^12.2.2",
+		"vue-template-compiler": "2.2.1",
+		"webpack-dev-server": "^2.4.5",
+		"webpack": "^2.6.1"
+	}
+}
